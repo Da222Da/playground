@@ -1,6 +1,6 @@
 <template>
   <div class="replContainer">
-    <Repl :editor="Monaco" :store="store" :showCompileOutput="true" :showTsConfig="false" :previewOptions="previewOptions" />
+    <Repl :editor="Monaco" :store="store" :showCompileOutput="false" :showTsConfig="false" :previewOptions="previewOptions" />
   </div>
 </template>
 
