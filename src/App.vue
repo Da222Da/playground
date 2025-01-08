@@ -8,7 +8,6 @@
 import { watchEffect, ref } from "vue";
 import { Repl, useStore, useVueImportMap } from "@vue/repl";
 import Monaco from "@vue/repl/monaco-editor";
-import Vue3Component from "zhangxianjue-vue3-components";
 
 const customStyle = () => {
   const link = '<link rel="stylesheet" href="https://unpkg.com/zhangxianjue-vue3-components/dist/style.css" />';
