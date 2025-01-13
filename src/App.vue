@@ -21,8 +21,10 @@ const previewOptions = {
 // 安装默认依赖
 const builtinImportMap = ref({
   imports: {
-    vue: "https://cdn.jsdelivr.net/npm/@vue/runtime-dom@3.5.13/dist/runtime-dom.esm-browser.js",
-    "vue/server-renderer": "https://cdn.jsdelivr.net/npm/@vue/server-renderer@3.5.13/dist/server-renderer.esm-browser.js",
+    // vue: "https://cdn.jsdelivr.net/npm/@vue/runtime-dom@3.5.13/dist/runtime-dom.esm-browser.js",
+    // "vue/server-renderer": "https://cdn.jsdelivr.net/npm/@vue/server-renderer@3.5.13/dist/server-renderer.esm-browser.js",
+    vue: "https://unpkg.com/@vue/runtime-dom@3.5.13/dist/runtime-dom.esm-browser.js",
+    "vue/server-renderer": "https://unpkg.com/@vue/server-renderer@3.5.13/dist/server-renderer.esm-browser.js",
     "vitepress-vue3-components": "https://unpkg.com/vitepress-vue3-components/dist/index.es.js",
   },
 });
